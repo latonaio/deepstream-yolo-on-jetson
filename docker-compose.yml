@@ -1,0 +1,9 @@
+version: "3"
+services:
+  deepstream-yolo:
+    # privileged: true
+    # volumes:
+    #   - /dev/l4t:/dev/l4t
+    build:
+      context: .
+      dockerfile: ./Dockerfile
