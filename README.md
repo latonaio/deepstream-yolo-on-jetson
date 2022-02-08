@@ -13,6 +13,13 @@ DeepStream SDK のインストールについては、[deployment-base-setup-for
 * Docker Compose v2
 * GNU Make
 
+## deepstream-yolo-on-jetsonを活用したAIソリューションの例
+
+以下の動画は deepstream-yolo-on-jetson を活用した、リアルタイムでサッカー選手の検出と追跡を行うAIソリューションの例です。  
+
+![soccer-player-yolo](https://user-images.githubusercontent.com/91356865/152900598-8618e6ab-2676-4c55-b5f3-52302974791d.gif)
+
+
 ## DeepStream SDK について
 
 DeepStream SDKは、NVIDIA社が提供しているAIベースのマルチセンサー処理やビデオ、音声、画像の理解のためのストリーミング分析ツールキットです。  
