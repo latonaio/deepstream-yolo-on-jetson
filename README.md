@@ -15,7 +15,7 @@ DeepStream SDK のインストールについては、[deployment-base-setup-for
 
 ## deepstream-yolo-on-jetsonを活用したAIソリューションの例
 
-以下の動画は deepstream-yolo-on-jetson を活用した、リアルタイムでサッカー選手の検出と追跡を行うAIソリューションの例です。  
+以下の動画は deepstream-yolo-on-jetson を活用した、リアルタイムで試合中のサッカー選手の検出と追跡を行うAIソリューションの例です。  
 
 https://user-images.githubusercontent.com/91356865/152901401-09fe18ab-0ac7-444d-aeba-57027833a2d5.gif  
 
