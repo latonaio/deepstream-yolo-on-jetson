@@ -53,20 +53,18 @@ YOLOとは、コンピューターが外部の物体を検出するときに使�
 画像をCNN（畳み込みニューラルネットワーク）に通すことで、オブジェクト検出を行います。  
 YOLOのアルゴリズムは１つのCNNで完結するためシンプルであり、リアルタイムかつ高精度で処理できるという特徴があります。  
 
+## NVIDIA コンテナランタイムの有効化
+
+Docker イメージをビルドするには、NVIDIAコンテナランタイムの有効化が必要です。
+有効化手順は、[nvidia-container-runtime-validation](https://github.com/latonaio/nvidia-container-runtime-validation)を参照してください。  
 
 ## Docker イメージのビルド
+
+以下のコマンドでDocker イメージをビルドしてください。  
 
 ```sh
 make docker-build
 ```
-
-この Docker イメージのビルドと動作には、nvidia-container-runtime の利用が必須となります。
-
-ビルドに失敗する場合は、次の操作を実行してください:
-
-* [Docker 公式リポジトリ](https://docs.docker.com/engine/install/ubuntu/)から最新版の Docker をインストールしてください。
-* `/etc/docker/daemon.json` に `"default-runtime": "nvidia"` を追加し、Docker を再起動してください。
-
 
 ## 実行
 
